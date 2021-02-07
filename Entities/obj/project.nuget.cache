@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cMeUG7r3uQEpDQ0ibrKVD3Sa2oX9u3aqLY/oU9+Jb1b4Ygj75wP6FghjqHMU6lDmNIJIAiB7ErhpfU3kTIjK1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sermin Has\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

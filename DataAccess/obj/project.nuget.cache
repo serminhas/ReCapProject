@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "372xXXrIPlC3LTYRV1jf8x21XFUGf91Dl6PE6xpb0S40yMOOB4Flh15YzeTDMyBdf38zWKeXonbhwlWtj5BXKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sermin Has\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
