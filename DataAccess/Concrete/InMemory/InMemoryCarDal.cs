@@ -1,8 +1,10 @@
 ﻿using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.InMemory
@@ -13,9 +15,11 @@ namespace DataAccess.Concrete.InMemory
         public InMemoryCarDal()
         {
             _cars = new List<Car> {
-            new Car{Id= 1, BrandId="A", ColorId="SilverGrey", DailyPrice=1000000, Description="AstonMartin", ModelYear=2021},
-            new Car{Id= 2, BrandId="A", ColorId="RainBlue", DailyPrice=2000000, Description="Porsche", ModelYear=2020},
-            new Car{Id= 3, BrandId="A", ColorId="HellRed", DailyPrice=1500000, Description="Ferrari", ModelYear=2021}
+                /*
+                 new Car{Id= 1, BrandId="A", ColorId="SilverGrey", DailyPrice=1000000, Description="AstonMartin", ModelYear=2021},
+                new Car{Id= 2, BrandId="A", ColorId="RainBlue", DailyPrice=2000000, Description="Porsche", ModelYear=2020},
+                new Car{Id= 3, BrandId="A", ColorId="HellRed", DailyPrice=1500000, Description="Ferrari", ModelYear=2021}
+                 */
             };
         }
 
@@ -44,14 +48,34 @@ namespace DataAccess.Concrete.InMemory
 
         }
 
+        public Car Get(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Car> GetAll()
         {
             return _cars;
         }
 
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Car> GetById(int Id)
         {
            return _cars.Where(c => c.Id == Id).ToList();
+        }
+
+        public List<CarDetailDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CarDetailDto> GetCatDetails()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)

@@ -1,0 +1,12 @@
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\x64\x64\netstandard2.0\Entities.deps.json
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\x64\x64\netstandard2.0\Entities.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\x64\x64\netstandard2.0\Entities.pdb
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\x64\x64\netstandard2.0\Core.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\x64\x64\netstandard2.0\Core.pdb
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\x64\x64\netstandard2.0\Entities.pdb

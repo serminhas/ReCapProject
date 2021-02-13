@@ -12,3 +12,5 @@ C:\Users\Sermin Has\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\
 C:\Users\Sermin Has\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Sermin Has\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Sermin Has\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb

@@ -7,3 +7,6 @@ C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\
 C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Sermin Has\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
