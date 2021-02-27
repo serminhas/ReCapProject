@@ -57,3 +57,8 @@ C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Cor
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
