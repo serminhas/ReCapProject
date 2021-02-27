@@ -22,12 +22,12 @@ namespace DataAccess.Concrete.EntityFramework
                              select new CarDetailDto
                              {
                                  Id = c.Id,
-                                 BrandId = b.BrandId,
-                                 ColorId = c.ColorId,
                                  ModelYear = c.ModelYear,
                                  DailyPrice = c.DailyPrice,
-                                 Description = c.Description
-                             };
+                                 Description = c.Description,
+                                 BrandId =c.BrandId,
+                                 ColorId =o.ColorId
+    };
                 return result.ToList();
             }
         }
