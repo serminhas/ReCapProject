@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -18,25 +20,29 @@ namespace Business.Concrete
         }
         public IResult Add(User user)
         {
-            if (!user.Email.Contains("@"))
-            {
-                return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı eklenemedi");
-            }
+            //if (!user.Email.Contains("@"))
+            //{
+            //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı eklenemedi");
+            //}
+            ValidationTool.Validate(new UserValidator(), user);
             return new SuccessResult(Messages.UserAdded);
             _userDal.Add(user);
         }
 
         public IResult Delete(User user)
         {
-            try
-            {
+            //try
+            //{
+            //    _userDal.Delete(user);
+            //    return new SuccessResult(Messages.UserDeleted);
+            //}
+            //catch (Exception)
+            //{
+            //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı silinemedi");
+            //}
+            ValidationTool.Validate(new UserValidator(), user);
                 _userDal.Delete(user);
-                return new SuccessResult(Messages.UserDeleted);
-            }
-            catch (Exception)
-            {
-                return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı silinemedi");
-            }
+            return new SuccessResult(Messages.UserDeleted);
         }
 
         public IDataResult<List<User>> GetAll()
@@ -51,10 +57,12 @@ namespace Business.Concrete
 
         public IResult Update(User user)
         {
-            if (!user.Email.Contains("@"))
-            {
-                return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı güncellenemedi");
-            }
+            //if (!user.Email.Contains("@"))
+            //{
+            //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı güncellenemedi");
+            //}
+            ValidationTool.Validate(new UserValidator(), user);
+            _userDal.Update(user);
             return new SuccessResult(Messages.UserUpdated);
         }
     }
