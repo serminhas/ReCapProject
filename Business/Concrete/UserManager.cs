@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -18,13 +19,14 @@ namespace Business.Concrete
         {
             _userDal = userDal;
         }
+        [ValidationAspect(typeof(UserValidator))]
         public IResult Add(User user)
         {
             //if (!user.Email.Contains("@"))
             //{
             //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı eklenemedi");
             //}
-            ValidationTool.Validate(new UserValidator(), user);
+            //ValidationTool.Validate(new UserValidator(), user);
             return new SuccessResult(Messages.UserAdded);
             _userDal.Add(user);
         }
@@ -40,7 +42,7 @@ namespace Business.Concrete
             //{
             //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı silinemedi");
             //}
-            ValidationTool.Validate(new UserValidator(), user);
+            //ValidationTool.Validate(new UserValidator(), user);
                 _userDal.Delete(user);
             return new SuccessResult(Messages.UserDeleted);
         }
@@ -61,7 +63,7 @@ namespace Business.Concrete
             //{
             //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı güncellenemedi");
             //}
-            ValidationTool.Validate(new UserValidator(), user);
+            //ValidationTool.Validate(new UserValidator(), user);
             _userDal.Update(user);
             return new SuccessResult(Messages.UserUpdated);
         }

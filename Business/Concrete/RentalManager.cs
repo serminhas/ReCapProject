@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -18,9 +19,10 @@ namespace Business.Concrete
         {
             _rentalDal = rentalDal;
         }
+        [ValidationAspect(typeof(RentalValidator))]
         public IResult Add(Rental rental)
         {
-            ValidationTool.Validate(new RentalValidator(), rental);
+            //ValidationTool.Validate(new RentalValidator(), rental);
                 _rentalDal.Add(rental);
             return new SuccessResult();
            
@@ -34,7 +36,7 @@ namespace Business.Concrete
             //    return new SuccessResult(Messages.RentalDeleted);
             //}
             //return new ErrorResult("Araç kiralama silinemedi");
-            ValidationTool.Validate(new RentalValidator(), rental);
+            //ValidationTool.Validate(new RentalValidator(), rental);
                 _rentalDal.Delete(rental);
             return new SuccessResult();
         }
@@ -57,7 +59,7 @@ namespace Business.Concrete
             //    return new SuccessResult(Messages.RentalUpdated);
             //}
             //return new ErrorResult("Araç kiralama güncellenemedi");
-            ValidationTool.Validate(new RentalValidator(), rental);
+            //ValidationTool.Validate(new RentalValidator(), rental);
              _rentalDal.Update(rental);
             return new SuccessResult();
         }

@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -20,7 +21,7 @@ namespace Business.Concrete
         {
             _colorDal = colorDal;
         }
-
+        [ValidationAspect(typeof(ColorValidator))]
         public IResult Add(Color color)
         {
 
@@ -28,7 +29,7 @@ namespace Business.Concrete
             //{
             //    return new ErrorResult(Messages.ColorNameInvalid);
             //}
-            ValidationTool.Validate(new ColorValidator(), color);
+            //ValidationTool.Validate(new ColorValidator(), color);
             return new SuccessResult();
             _colorDal.Add(color);
         }

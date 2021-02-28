@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "d2r7SSfhXtT9fIyFbgnOhu0e/gMy/gp/JoIp5x5hAwr39LgN7s5qrQcNlIaYxyF07+xbYMyro6ZSaHKOXt5pjQ==",
+  "dgSpecHash": "X+kN74/Wx4mUm5QFfPJDyVwlMB1DqLztFUyQ2L8Uxy5lPnO2QTnvfVkxb712FiutRL1f/U6dKQjgPC+XhBrrtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sermin Has\\source\\repos\\ReCapProject\\Console\\Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sermin Has\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
