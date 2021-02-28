@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wxTWtF2j/r2qn+NtuXFu/yZ5JTE7et7wflAJREU2TmIYu9jQzH1K4+G7w3dHeXgvAp9Q/Kcb+lIj09D2cXt/Xw==",
+  "dgSpecHash": "7IRevgd0qgmsLcKGaQeMJ96+kZZLIHcbX0a0sYoHEdwVPP/laQlTxIsvKQa+EJbfY6Zc9zPVkGGbd80jStYU8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sermin Has\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

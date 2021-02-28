@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -20,21 +22,16 @@ namespace Business.Concrete
         }
 
         public IResult Add(Brand brand)
-        {            
-            if (brand.BrandName.Length<2)
-            {
-                return new ErrorResult(Messages.BrandNameInvalid);
-            }
-            return new SuccessResult();
+        {
+            ValidationTool.Validate(new BrandValidator(), brand);
             _brandDal.Add(brand);
+            return new SuccessResult();
+            
         }
 
         public IResult Delete(Brand brand)
         {
-            if (brand.BrandName.Length<2)
-            {
-                return new ErrorResult(Messages.BrandNameInvalid);
-            }
+            ValidationTool.Validate(new BrandValidator(), brand);
             return new SuccessResult();
             _brandDal.Delete(brand);
         }
@@ -51,11 +48,11 @@ namespace Business.Concrete
 
         public IResult Update(Brand brand)
         {
-            if (brand.BrandName.Length<2)
-            {
-                return new ErrorResult(Messages.BrandNameInvalid);
-            }
-            
+            //if (brand.BrandName.Length<2)
+            //{
+            //    return new ErrorResult(Messages.BrandNameInvalid);
+            //}
+            ValidationTool.Validate(new BrandValidator(), brand);
             return new SuccessResult();
             _brandDal.Update(brand);
         } 

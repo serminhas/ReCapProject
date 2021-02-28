@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -18,10 +20,7 @@ namespace Business.Concrete
         }
         public IResult Add(Customer customer)
         {
-            if (customer.CompanyName=="Isbank")
-            {
-                return new ErrorResult("Müşteri eklenemez");
-            }
+            ValidationTool.Validate(new CustomerValidator(), customer);
             return new SuccessResult(Messages.CustomerAdded);
             _customerDal.Add(customer);
         }
@@ -39,7 +38,7 @@ namespace Business.Concrete
 
         public IDataResult<Customer> GetById(int Id)
         {
-            return new SuccessDataResult<Customer>(_customerDal.Get(c => c.Id == Id));
+            return new SuccessDataResult<Customer>(_customerDal.Get(c => c.UserId == Id));
         }
 
         public IResult Update(Customer customer)

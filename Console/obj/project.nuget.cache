@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kAXEOWutguUKRy++cNJwQbMnelOv8sVrh6Rukbd6o/pYpDcr9etNFnZ0YO5hQoxoyoVRwzUaRGvO8QlfLcbTwA==",
+  "dgSpecHash": "d2r7SSfhXtT9fIyFbgnOhu0e/gMy/gp/JoIp5x5hAwr39LgN7s5qrQcNlIaYxyF07+xbYMyro6ZSaHKOXt5pjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sermin Has\\source\\repos\\ReCapProject\\Console\\Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sermin Has\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\Sermin Has\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Sermin Has\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

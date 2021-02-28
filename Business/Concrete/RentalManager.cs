@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -18,23 +20,23 @@ namespace Business.Concrete
         }
         public IResult Add(Rental rental)
         {
-            if (rental.ReturnDate!=null)
-            {
+            ValidationTool.Validate(new RentalValidator(), rental);
                 _rentalDal.Add(rental);
-                return new SuccessResult(Messages.RentalAdded);
-            }
-            return new ErrorResult("Araç kiralama başarısız");
+            return new SuccessResult();
            
         }
 
         public IResult Delete(Rental rental)
         {
-            if (rental.ReturnDate != null)
-            {
+            //if (rental.ReturnDate != null)
+            //{
+            //    _rentalDal.Delete(rental);
+            //    return new SuccessResult(Messages.RentalDeleted);
+            //}
+            //return new ErrorResult("Araç kiralama silinemedi");
+            ValidationTool.Validate(new RentalValidator(), rental);
                 _rentalDal.Delete(rental);
-                return new SuccessResult(Messages.RentalDeleted);
-            }
-            return new ErrorResult("Araç kiralama silinemedi");
+            return new SuccessResult();
         }
 
         public IDataResult<List<Rental>> GetAll()
@@ -49,12 +51,15 @@ namespace Business.Concrete
 
         public IResult Update(Rental rental)
         {
-            if (rental.ReturnDate != null)
-            {
-                _rentalDal.Delete(rental);
-                return new SuccessResult(Messages.RentalUpdated);
-            }
-            return new ErrorResult("Araç kiralama güncellenemedi");
+            //if (rental.ReturnDate != null)
+            //{
+            //    _rentalDal.Delete(rental);
+            //    return new SuccessResult(Messages.RentalUpdated);
+            //}
+            //return new ErrorResult("Araç kiralama güncellenemedi");
+            ValidationTool.Validate(new RentalValidator(), rental);
+             _rentalDal.Update(rental);
+            return new SuccessResult();
         }
     }
 }
