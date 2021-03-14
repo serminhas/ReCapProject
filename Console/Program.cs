@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -15,9 +16,9 @@ namespace Console
             //Add();
             //GetCarDetails();
              UserManager userManager = new UserManager(new EfUserDal());
-             var result = userManager.Add(new User 
-             { Id = 1, FirstName = "Onur", LastName = "Has", Email = "oh@gmail.com", Password = 123 });
-            System.Console.WriteLine(result.Message);
+             /*var result = userManager.Add(new User 
+             { Id = 1, FirstName = "Onur", LastName = "Has", Email = "oh@gmail.com"});
+            System.Console.WriteLine(result.Message);*/
 
             RentalManager rentalManager = new RentalManager(new EfRentalDal());
             var result1 = rentalManager.Add(new Rental

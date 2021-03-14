@@ -3,6 +3,7 @@ using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.FluentValidation;
+using Core.Entities.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -20,17 +21,6 @@ namespace Business.Concrete
             _userDal = userDal;
         }
         [ValidationAspect(typeof(UserValidator))]
-        public IResult Add(User user)
-        {
-            //if (!user.Email.Contains("@"))
-            //{
-            //    return new ErrorResult("Geçersiz mail adresi yüzünden kullanıcı eklenemedi");
-            //}
-            //ValidationTool.Validate(new UserValidator(), user);
-            return new SuccessResult(Messages.UserAdded);
-            _userDal.Add(user);
-        }
-
         public IResult Delete(User user)
         {
             //try
@@ -57,6 +47,8 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(_userDal.Get(u => u.Id == Id));
         }
 
+          
+
         public IResult Update(User user)
         {
             //if (!user.Email.Contains("@"))
@@ -66,6 +58,23 @@ namespace Business.Concrete
             //ValidationTool.Validate(new UserValidator(), user);
             _userDal.Update(user);
             return new SuccessResult(Messages.UserUpdated);
+        }
+
+ 
+
+        public List<OperationClaim> GetClaims(User user)
+        {
+            return _userDal.GetClaims(user);
+        }
+
+        public void Add(User user)
+        {
+            _userDal.Add(user);
+        }
+
+        public User GetByMail(string email)
+        {
+            return _userDal.Get(u => u.Email == email);
         }
     }
 }
