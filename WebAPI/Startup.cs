@@ -26,7 +26,7 @@ namespace WebAPI
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        // This method gets called by the runtime. Use this method to add services to the container. context nerde
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -42,7 +42,7 @@ namespace WebAPI
             //services.AddSingleton<IRentalDal, EfRentalDal>();
             //services.AddSingleton<IUserService, UserManager>();
             //services.AddSingleton<IUserDal, EfUserDal>();
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

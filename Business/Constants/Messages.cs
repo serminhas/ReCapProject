@@ -22,5 +22,7 @@ namespace Business.Constants
         public static string UserDeleted="Kullanıcı silindi";
         public static string UserUpdated="Kullanıcı güncellendi";
         public static string CustomerAdded="Müşteri eklendi";
+
+        public static string CarImageLimitExceeded="Resim ekleme limiti aşıldı";
     }
 }

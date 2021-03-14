@@ -18,8 +18,6 @@ C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\Web
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
-C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -27,9 +25,7 @@ C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Mic
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -63,3 +59,18 @@ C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Aut
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
