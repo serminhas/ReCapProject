@@ -61,6 +61,3 @@ namespace Core.DataAccess.EntityFramework
         }
     }
 }
-// sqlserver versiyon hatası veriyor. netstandart açtığın için güncelleme yapamıyor. illa netstandart mı olması gerekiyormuş ?yok hocam, ben derslerden baka baka yaptım, o yüzden öyle açtım:) ok olmuyo deinizdiğer hatan ok ama sql versiyonda create metodu bulamıyor sanırım  eleman da mı aynı versiyonda açıyor ve oevet :D
-
-//github göstereyim mi? yapan birininkini?rolur bu kızılırmak denen çocuğunki hep iyi çıkıyor:)
