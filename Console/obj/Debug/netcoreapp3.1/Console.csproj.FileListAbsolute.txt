@@ -72,3 +72,7 @@ C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Mi
 C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Sermin Has\source\repos\ReCapProject\Console\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
